@@ -1,0 +1,11 @@
+beta0=0.12
+kappa0=0.2
+theta0=1e3
+eta=60
+p_a1=5.8, p_a2=2.2, p_a3=3.75, p_a4=2.0
+p_b1=4.0
+mu=2e-3, tau=20
+
+alpha1=1.65
+alpha2=1.56
+
