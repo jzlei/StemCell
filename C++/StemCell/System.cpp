@@ -144,10 +144,10 @@ bool CSystem::SystemUpdate(double t)
         if(Rand()<p0 && k<_MaxNumCell)
         {
             k=k+1;
-            (*this)(k)._X[0] = X1[k];
-            (*this)(k)._X[1] = X2[k];
-            (*this)(k)._ProfQ = PQ[k];
-            (*this)(k)._age = age[k];
+            (*this)(k)._X[0] = X1[i];
+            (*this)(k)._X[1] = X2[i];
+            (*this)(k)._ProfQ = PQ[i];
+            (*this)(k)._age = age[i];
         }
         if (k==_MaxNumCell)
         {
